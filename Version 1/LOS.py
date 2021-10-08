@@ -22,8 +22,10 @@ class LOS:
                 anicount = (anicount + 1)% 4
                 i =(i + 1)% ls_len 
                 counttime = counttime + 1
+                #Only for debugging atm, will be removed later
                 if counttime == 100:
                     self.ready_load = True
+                #End of debug section
             
             # for windows OS 
             if os.name =="nt": 
